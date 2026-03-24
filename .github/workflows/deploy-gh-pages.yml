@@ -35,17 +35,24 @@ jobs:
       - name: Generate HTML
         run: node scripts/generate-html.js
 
-      # 6. Prepare dist folder
+      # 6. Commit changes back to MAIN
+      - name: Commit & Push changes to main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update generated readme and index"
+          file_pattern: "README.md index.html"
+
+      # 7. Prepare dist folder
       - name: Prepare dist
         run: |
           mkdir dist
           cp index.html dist/
           cp README.md dist/
           cp -r css dist/
-          cp -r data dist/
+          cp scripts/main.js dist/
           cp -r assets dist/ || true
 
-      # 7. Deploy
+      # 8. Deploy
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
