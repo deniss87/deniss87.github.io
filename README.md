@@ -26,7 +26,7 @@ I'm eager to contribute to real projects, collaborate with developers, and conti
 
 ### 🎨 Frontend
 
-![HTML5](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-264de4?logo=css3&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-cf649a?logo=sass&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-black?logo=tailwindcss&logoColor=38bdf8) ![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61dafb?logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white) 
+![HTML5](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-264de4?logo=css3&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-cf649a?logo=sass&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-black?logo=tailwindcss&logoColor=38bdf8) ![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61dafb?logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white) ![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?logo=svelte&logoColor=white) 
 
 ### 🧩 Backend & APIs
 
