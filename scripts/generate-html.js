@@ -52,8 +52,11 @@ function renderProjects() {
         project.links.find((l) => l.tag === "pr")?.url ||
         "#";
 
+      const categoryAttribute = project.category
+        ? project.category.join(" ").toLowerCase()
+        : "";
       return `
-<tr>
+<tr data-category="${categoryAttribute}">
 <td><a href="${repo}"><b>${project.title}</b></a></td>
 <td>${project.stack.join(", ")}</td>
 <td><a href="${demo}">View</a></td>

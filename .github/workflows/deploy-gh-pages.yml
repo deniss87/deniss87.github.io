@@ -49,8 +49,9 @@ jobs:
           cp index.html dist/
           cp README.md dist/
           cp -r css dist/
-          cp scripts/main.js dist/
           cp -r assets dist/ || true
+          mkdir -p dist/scripts
+          cp scripts/main.js dist/scripts/
 
       # 8. Deploy
       - name: Deploy to gh-pages
