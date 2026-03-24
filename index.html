@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- JS -->
-    <script defer src="main.js"></script>
+    <script defer src="scripts/main.js"></script>
 
     <!-- Umami -->
     <script
@@ -97,7 +97,7 @@
 
   <body>
     <div class="container">
-      <header class="section">
+      <header class="section section-about">
         <img
           src="https://github.com/deniss87.png"
           alt="Deniss Patancevs"
@@ -107,13 +107,12 @@
         <h1>Hi there, I'm Deniss Patancevs</h1>
 
         <p>
-          Junior Full-Stack Web Developer focused on React, Next.js, TypeScript
-          and modern web technologies.
+          Junior Full-Stack Web Developer focused on modern web technologies.
         </p>
       </header>
 
       <section class="section">
-        <h2>🧰 My Tech Stack</h2>
+        <h2 class="section-title">🧰 My Tech Stack</h2>
         
       <h3>🎨 Frontend</h3>
       <p>
@@ -153,9 +152,17 @@
       </section>
 
       <section class="section">
-        <h2>📚 Courses</h2>
+        <h2 class="section-title">📚 Courses</h2>
         <table>
-          
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Description</th>
+              <th>Links</th>
+            </tr>
+          </thead>
+          <tbody id="courses-content">
+            
 <tr>
 <td><a href="https://github.com/deniss87/JSFEEN2024Q4"><b>JS / Front-end Course (RS School)</b></a></td>
 <td>26-week program followed by a 7-week final team project</td>
@@ -174,19 +181,32 @@
 <td><a href="https://www.coursera.org/specializations/web-applications">Course website</a></td>
 </tr>
 
+          </tbody>
         </table>
       </section>
 
       <section class="section">
-        <h2>🚀 Projects</h2>
+        <h2 class="section-title">🚀 Projects</h2>
         <div class="filter-container">
           <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="react">React</button>
-          <button class="filter-btn" data-filter="nextjs">Next.js</button>
-          <button class="filter-btn" data-filter="php">PHP/Laravel</button>
+          <button class="filter-btn" data-filter="js">JS</button>
+          <button class="filter-btn" data-filter="react">
+            React / Next.js
+          </button>
+          <button class="filter-btn" data-filter="php">PHP / Laravel</button>
+          <button class="filter-btn" data-filter="rest">REST API</button>
         </div>
-        <table>
-          
+        <div class="projects-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Project</th>
+                <th>Stack</th>
+                <th>Links</th>
+              </tr>
+            </thead>
+            <tbody id="projects-content">
+              
 <tr data-category="js">
 <td><a href="https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3"><b>Christmas Shop</b></a></td>
 <td>HTML, CSS/Sass, JavaScript, Figma</td>
@@ -229,7 +249,7 @@
 <td><a href="https://rss-react-project.netlify.app/">View</a></td>
 </tr>
 
-<tr data-category="react rest">
+<tr data-category="react nextjs rest">
 <td><a href="https://github.com/deepcd87/rest-client-app"><b>Rest Client (Teamwork)</b></a></td>
 <td>Next.js, TypeScript, Tailwind, NextAuth.js, Prisma, Zod, Vitest</td>
 <td><a href="https://github.com/deepcd87/rest-client-app/pull/1">View</a></td>
@@ -241,7 +261,33 @@
 <td><a href="https://php-oop-crud.42web.io/">View</a></td>
 </tr>
 
-        </table>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2 class="section-title">📫 Contact</h2>
+        <div class="contact-badges">
+          <a href="mailto:deniss.patancevs@gmail.com" target="_blank">
+            <img
+              src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"
+              alt="Email"
+            />
+          </a>
+          <a href="https://linkedin.com/in/deniss-patancevs" target="_blank">
+            <img
+              src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white"
+              alt="LinkedIn"
+            />
+          </a>
+          <a href="https://github.com/deniss87" target="_blank">
+            <img
+              src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
+              alt="GitHub"
+            />
+          </a>
+        </div>
       </section>
     </div>
   </body>

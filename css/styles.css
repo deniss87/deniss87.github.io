@@ -71,6 +71,11 @@ h3 {
   font-size: 1.8rem;
 }
 
+.section-about {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
 .tech-badge {
   display: inline-block;
   transition:
@@ -127,11 +132,19 @@ hr {
   margin: 40px 0;
 }
 
-.filter-buttons {
+.projects-wrapper {
+  min-height: 426px;
+  width: 100%;
+  display: flow-root;
+}
+
+/* Filters */
+
+.filter-container {
   margin-bottom: 15px;
   text-align: center;
 }
-.filter-buttons button {
+.filter-container button {
   background: #161b22;
   color: #58a6ff;
   border: none;
@@ -140,12 +153,24 @@ hr {
   cursor: pointer;
   border-radius: 4px;
 }
-.filter-buttons button.active {
+.filter-container button.active {
   background: #58a6ff;
   color: #0d1117;
 }
 .hidden {
   display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
 }
 
 /* Contact section */
