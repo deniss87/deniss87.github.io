@@ -2,7 +2,10 @@ export const projects = [
   {
     title: "Christmas Shop",
     category: ["js"],
-    stack: ["HTML", "CSS/Sass", "JavaScript", "Figma"],
+    featured: false,
+    date: "2024-01-01",
+    mainStack: ["HTML", "JavaScript"],
+    stack: ["CSS / Sass", "Figma"],
     links: [
       {
         tag: "repo",
@@ -18,7 +21,10 @@ export const projects = [
   {
     title: "Hangman",
     category: ["js"],
-    stack: ["HTML", "CSS/Sass", "JavaScript"],
+    featured: false,
+    date: "2024-01-01",
+    mainStack: ["JavaScript"],
+    stack: ["HTML", "CSS / Sass"],
     links: [
       {
         tag: "repo",
@@ -34,7 +40,10 @@ export const projects = [
   {
     title: "News API",
     category: ["js", "rest"],
-    stack: ["HTML", "CSS", "TypeScript", "Webpack", "REST API"],
+    featured: false,
+    date: "2024-01-01",
+    mainStack: ["TypeScript"],
+    stack: ["HTML", "CSS", "Webpack", "REST API"],
     links: [
       {
         tag: "repo",
@@ -50,14 +59,10 @@ export const projects = [
   {
     title: "Async Race",
     category: ["js", "rest"],
-    stack: [
-      "HTML",
-      "CSS",
-      "TypeScript",
-      "REST API",
-      "Web Animations API",
-      "Webpack",
-    ],
+    featured: false,
+    date: "2024-01-01",
+    mainStack: ["TypeScript"],
+    stack: ["HTML", "CSS", "REST API", "Web Animations API", "Webpack"],
     links: [
       {
         tag: "repo",
@@ -73,7 +78,10 @@ export const projects = [
   {
     title: "Fun Chat",
     category: ["js"],
-    stack: ["HTML", "CSS", "TypeScript", "WebSocket", "SPA", "Webpack"],
+    featured: false,
+    date: "2024-01-01",
+    mainStack: ["TypeScript", "WebSocket"],
+    stack: ["HTML", "CSS", "SPA", "Webpack"],
     links: [
       {
         tag: "repo",
@@ -88,8 +96,12 @@ export const projects = [
 
   {
     title: "eCommerce App (Teamwork)",
+    appName: "eCommerce Shop",
     category: ["react", "rest"],
-    stack: ["React", "TypeScript", "Commercetools API", "SPA", "Webpack"],
+    featured: true,
+    date: "2024-01-01",
+    mainStack: ["React"],
+    stack: ["TypeScript", "Commercetools API", "SPA", "Webpack"],
     links: [
       {
         tag: "repo",
@@ -105,14 +117,10 @@ export const projects = [
   {
     title: "Pokémon Dashboard",
     category: ["react", "rest"],
-    stack: [
-      "React",
-      "TypeScript",
-      "Tailwind",
-      "Zustand",
-      "TanStack Query",
-      "Vitest",
-    ],
+    featured: false,
+    date: "2024-01-01",
+    mainStack: ["React"],
+    stack: ["TypeScript", "Tailwind", "Zustand", "TanStack Query", "Vitest"],
     links: [
       {
         tag: "repo",
@@ -127,16 +135,12 @@ export const projects = [
 
   {
     title: "Rest Client (Teamwork)",
+    appName: "REST CLIENT",
     category: ["react", "nextjs", "rest"],
-    stack: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind",
-      "NextAuth.js",
-      "Prisma",
-      "Zod",
-      "Vitest",
-    ],
+    featured: true,
+    date: "2024-01-01",
+    mainStack: ["Next.js"],
+    stack: ["TypeScript", "Tailwind", "NextAuth.js", "Prisma", "Zod", "Vitest"],
     links: [
       {
         tag: "repo",
@@ -152,7 +156,10 @@ export const projects = [
   {
     title: "Product Management App",
     category: ["php"],
-    stack: ["PHP", "OOP", "MySQL"],
+    featured: false,
+    date: "2024-01-01",
+    mainStack: ["PHP", "MySQL"],
+    stack: ["OOP"],
     links: [
       {
         tag: "repo",
@@ -161,6 +168,30 @@ export const projects = [
       {
         tag: "demo",
         url: "https://php-oop-crud.42web.io/",
+      },
+    ],
+  },
+
+  {
+    title: "Laravel CRM",
+    slug: "laravel-crm",
+    category: ["php", "laravel", "postgresql"],
+    featured: true,
+    date: "2026-03-23",
+    mainStack: ["Laravel", "Vue 3", "PostreSQL", "Docker"],
+    stack: ["Inertia.js", "Tailwind", "REST API"],
+    media: {
+      cover: "logo.svg",
+      screenshots: ["01.png", "02.png", "03.png", "04.png", "05.png"],
+    },
+    links: [
+      {
+        tag: "repo",
+        url: "https://github.com/deniss87/learning-laravel-crud-api",
+      },
+      {
+        tag: "demo",
+        url: "http://129.159.205.117/",
       },
     ],
   },

@@ -103,6 +103,7 @@
 
   <body>
     <div class="container">
+      <!-- ABOUT SECTION -->
       <header class="section section-about">
         <img
           src="https://github.com/deniss87.png"
@@ -117,29 +118,21 @@
         </p>
       </header>
 
+      <!-- TECH STACK SECTION -->
       <section class="section">
         <h2 class="section-title">🧰 My Tech Stack</h2>
         {{TECH_STACK}}
       </section>
 
+      <!-- FEATURED PROJECTS SECTION -->
       <section class="section">
-        <h2 class="section-title">📚 Courses</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Course</th>
-              <th>Description</th>
-              <th>Links</th>
-            </tr>
-          </thead>
-          <tbody id="courses-content">
-            {{COURSES}}
-          </tbody>
-        </table>
+        <h2 class="section-title">⭐ Featured Projects</h2>
+        <div class="featured-grid">{{FEATURED_PROJECTS}}</div>
       </section>
 
-      <section class="section">
-        <h2 class="section-title">🚀 Projects</h2>
+      <!-- PROJECTS SECTION -->
+      <section class="section" id="projects-section">
+        <h2 class="section-title">🚀 All Projects</h2>
         <div class="filter-container">
           <button class="filter-btn active" data-filter="all">All</button>
           <button class="filter-btn" data-filter="js">JS</button>
@@ -165,6 +158,24 @@
         </div>
       </section>
 
+      <!-- COURSES SECTION -->
+      <section class="section">
+        <h2 class="section-title">📚 Courses</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Description</th>
+              <th>Links</th>
+            </tr>
+          </thead>
+          <tbody id="courses-content">
+            {{COURSES}}
+          </tbody>
+        </table>
+      </section>
+
+      <!-- CONTACT SECTION -->
       <section id="contact" class="section">
         <h2 class="section-title">📫 Contact</h2>
         <div class="contact-badges">
