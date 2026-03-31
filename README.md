@@ -65,15 +65,16 @@ I'm eager to contribute to real projects, collaborate with developers, and conti
 
 | Project | Stack | Links |
 | ------ | ------------ | ----- |
-| [**Christmas Shop**](https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3) | HTML, CSS/Sass, JavaScript, Figma | [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/christmas-shop/) |
-| [**Hangman**](https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/) | HTML, CSS/Sass, JavaScript | [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/hangman/) |
-| [**News API**](https://github.com/deniss87/JSFEEN2024Q4/tree/news-api) | HTML, CSS, TypeScript, Webpack, REST API | [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/news-api/) |
-| [**Async Race**](https://github.com/deniss87/JSFEEN2024Q4/tree/async-race) | HTML, CSS, TypeScript, REST API, Web Animations API, Webpack | [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/async-race/) |
-| [**Fun Chat**](https://github.com/deniss87/JSFEEN2024Q4/tree/fun-chat) | HTML, CSS, TypeScript, WebSocket, SPA, Webpack | [🌍 Live Demo](https://deniss87-fun-chat.netlify.app/) |
-| [**eCommerce App (Teamwork)**](https://github.com/deepcd87/rss-ecomm-task) | React, TypeScript, Commercetools API, SPA, Webpack | [🔄 Pull Requests](https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed) |
-| [**Pokémon Dashboard**](https://github.com/deniss87/REACT2025Q3/tree/pokemon-react) | React, TypeScript, Tailwind, Zustand, TanStack Query, Vitest | [🌍 Live Demo](https://rss-react-project.netlify.app/) |
-| [**Rest Client (Teamwork)**](https://github.com/deepcd87/rest-client-app) | Next.js, TypeScript, Tailwind, NextAuth.js, Prisma, Zod, Vitest | [🔄 Pull Requests](https://github.com/deepcd87/rest-client-app/pull/1) |
-| [**Product Management App**](https://github.com/deniss87/learning-php-oop-app) | PHP, OOP, MySQL | [🌍 Live Demo](https://php-oop-crud.42web.io/) |
+| [**Christmas Shop**](https://github.com/deniss87/JSFEEN2024Q4/tree/christmas-shop-part3) | CSS / Sass, Figma | [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/christmas-shop/) |
+| [**Hangman**](https://github.com/deniss87/JSFEEN2024Q4/blob/hangman/) | HTML, CSS / Sass | [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/hangman/) |
+| [**News API**](https://github.com/deniss87/JSFEEN2024Q4/tree/news-api) | HTML, CSS, Webpack, REST API | [🌍 Live Demo](https://deniss87.github.io/JSFEEN2024Q4/news-api/) |
+| [**Async Race**](https://github.com/deniss87/JSFEEN2024Q4/tree/async-race) | HTML, CSS, REST API, Web Animations API, Webpack |  |
+| [**Fun Chat**](https://github.com/deniss87/JSFEEN2024Q4/tree/fun-chat) | HTML, CSS, SPA, Webpack | [🌍 Live Demo](https://deniss87-fun-chat.netlify.app/) |
+| [**eCommerce App (Teamwork)**](https://github.com/deepcd87/rss-ecomm-task) | TypeScript, Commercetools API, SPA, Webpack | [🔄 Pull Requests](https://github.com/deepcd87/rss-ecomm-task/pulls?page=1&q=is%3Apr+is%3Aclosed) |
+| [**Pokémon Dashboard**](https://github.com/deniss87/REACT2025Q3/tree/pokemon-react) | TypeScript, Tailwind, Zustand, TanStack Query, Vitest | [🌍 Live Demo](https://rss-react-project.netlify.app/) |
+| [**Rest Client (Teamwork)**](https://github.com/deepcd87/rest-client-app) | TypeScript, Tailwind, NextAuth.js, Prisma, Zod, Vitest | [🔄 Pull Requests](https://github.com/deepcd87/rest-client-app/pull/1) |
+| [**Product Management App**](https://github.com/deniss87/learning-php-oop-app) | OOP | [🌍 Live Demo](https://php-oop-crud.42web.io/) |
+| [**Laravel CRM**](https://github.com/deniss87/learning-laravel-crud-api) | Inertia.js, Tailwind, REST API | [🌍 Live Demo](http://129.159.205.117/) |
 
 ## 📫 Contact
 
